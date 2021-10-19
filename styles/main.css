@@ -78,6 +78,7 @@ nav p {
   color: white;
   border-radius: 15px;
   margin: 0 15% 0 15%;
+  margin-top: 50px;
 }
 .home h2 {
   margin-bottom: 50px;
@@ -170,16 +171,28 @@ footer {
   .home {
     margin: 0;
     border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   h2 {
     font-size: 25px;
   }
 
+  .list {
+    margin-right: 0;
+    width: 100%;
+  }
   .list p,
 .list h3,
 .list li {
-    font-size: 22px;
+    font-size: 17px;
+  }
+  .list ul {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
 
   .listImg {
@@ -194,6 +207,10 @@ footer {
   }
   .images img {
     max-width: 360px;
+  }
+
+  footer {
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
