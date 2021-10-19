@@ -7,8 +7,8 @@
      background: linear-gradient(135deg, #002d58, #008bdb);
      padding: 40px;
      margin-bottom: 50px;
-     border-bottom-left-radius: 15px;
-     border-bottom-right-radius: 15px;
+     // border-bottom-left-radius: 15px;
+     // border-bottom-right-radius: 15px;
      h1 {
          margin-bottom: 20px;
          font-size: 60px;
@@ -18,7 +18,7 @@
  
  nav {
      padding: 20px;
-     width: 75%;
+     width: 85%;
      display: flex;
      justify-content: space-between;
      a {
@@ -26,14 +26,22 @@
          text-decoration: none;
          //color: white;
          font-size: 20px;
+         font-weight: bolder;
          background-color: white;
+         color: black;
          padding: 15px;
+         margin-right: 2%;
+         margin-left: 2%;
          width: 180px;
          border-radius: 5px;
          box-shadow: 3px 3px 3px grey;
-         transition: 0.3s;
+         transition: all ease-in-out 0.3s;
          &:hover {
              box-shadow: 8px 8px 8px rgb(92, 91, 91);
+             // background-color: #e27ae2;
+             background: linear-gradient(135deg, #e27ae2, #daceda);
+             // color: white;
+             transform: scale(1.2);
          }
      }
  }
@@ -41,6 +49,7 @@
  .home {
      background: linear-gradient(135deg, #002d58, #008bdb);
      display: flex;
+     flex-direction: column;
      padding: 50px;
      font-size: 25px;
      font-weight: bold;
@@ -65,6 +74,34 @@
  
  .info {
      width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .list {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .listImg {
+     display: flex;
+     justify-content: space-around;
+     max-width: 1100px;
+ }
+ 
+ .images {
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr;
+     justify-content: center;
+     justify-items: center;
+     gap: 20px;
+     img {
+         width: 80%;
+         border-radius: 10px;
+         object-fit: cover;
+         box-shadow: 5px 5px 5px rgb(75, 74, 74);
+     }
  }
  
  footer {
@@ -73,6 +110,6 @@
      background: linear-gradient(135deg, #002d58, #008bdb);
      padding: 40px;
      margin-top: 50px;
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
+     // border-top-left-radius: 15px;
+     // border-top-right-radius: 15px;
  }
