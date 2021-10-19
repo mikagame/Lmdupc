@@ -166,6 +166,22 @@ footer {
     justify-items: center;
     gap: 20px;
   }
+
+  .list {
+    margin-right: 0;
+    margin-left: 0;
+    width: 340px;
+  }
+  .list p,
+.list h3,
+.list li {
+    font-size: 13px;
+  }
+  .list ul {
+    margin-left: 0;
+    margin-right: 0;
+    width: 340px;
+  }
 }
 @media only screen and (max-width: 999px) {
   .home {
