@@ -154,10 +154,19 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  font-weight: bolder;
 }
 footer a {
   text-decoration: none;
   color: white;
+  transition: 0.2s;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+footer a:hover i {
+  color: orange;
 }
 footer p,
 footer i,
@@ -170,6 +179,18 @@ footer i {
 footer .mailPhone {
   display: flex;
   flex-direction: column;
+}
+footer .reseau {
+  display: flex;
+}
+footer .reseau i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+footer .reseau a:hover,
+footer .reseau i:hover {
+  text-decoration: underline;
+  color: orange;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {

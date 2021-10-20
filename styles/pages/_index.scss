@@ -150,9 +150,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    font-weight: bolder;
     a {
         text-decoration: none;
         color: white;
+        transition: 0.2s;
+        &:hover {
+            text-decoration: underline;
+            color: orange;
+            i {
+                color: orange;
+            }
+        }
     }
     p,
     i,
@@ -167,6 +176,18 @@ footer {
     .mailPhone {
         display: flex;
         flex-direction: column;
+    }
+    .reseau {
+        display: flex;
+        i {
+            font-size: 25px;
+            margin-right: 15px;
+        }
+        a:hover,
+        i:hover {
+            text-decoration: underline;
+            color: orange;
+        }
     }
 }
 
