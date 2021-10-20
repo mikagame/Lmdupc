@@ -88,6 +88,7 @@ nav p {
   border-radius: 15px;
   margin: 0 15% 0 15%;
   margin-top: 50px;
+  box-shadow: 5px 5px 5px #4b4a4a;
 }
 .home h2 {
   margin-bottom: 50px;
@@ -341,21 +342,30 @@ footer .reseau i:hover {
   border-radius: 15px;
   margin: 0 15% 0 15%;
   margin-top: 50px;
+  box-shadow: 6px 6px 3px #3b3b3b;
 }
 .catalogue h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid white;
 }
+.catalogue p {
+  font-size: 20px;
+}
 
 .contain {
   display: flex;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
 .contain img {
-  width: 80%;
+  width: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  object-fit: cover;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px #3b3b3b;
 }
 
 @media only screen and (max-width: 999px) {
@@ -365,4 +375,90 @@ footer .reseau i:hover {
     display: flex;
     flex-direction: column;
   }
+}
+@media only screen and (max-width: 730px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contain img {
+    margin: 20px 0 0 0;
+  }
+}
+.prestation {
+  background: linear-gradient(135deg, #002d58, #008bdb);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  margin: 0 10% 0 10%;
+  margin-top: 50px;
+  box-shadow: 5px 5px 5px #4b4a4a;
+}
+.prestation h2 {
+  margin-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+.prestation p,
+.prestation li {
+  font-size: 18px;
+  list-style: none;
+}
+.prestation h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.zones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 30px;
+}
+
+.first,
+.second,
+.third {
+  width: 100%;
+}
+
+.up {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  height: 170px;
+  margin-bottom: 30px;
+  background-color: #b97001;
+}
+.up h3 {
+  font-size: 20px;
+}
+.up i {
+  border-radius: 50%;
+  background-color: white;
+  color: #002f5b;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.depannage,
+.assistance,
+.maintenance {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

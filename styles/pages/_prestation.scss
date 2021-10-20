@@ -1,0 +1,76 @@
+.prestation {
+    background: linear-gradient(135deg, #002d58, #008bdb);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    margin: 0 10% 0 10%;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+    h2 {
+        margin-bottom: 30px;
+        border-bottom: 2px solid white;
+    }
+    p,
+    li {
+        font-size: 18px;
+        list-style: none;
+    }
+    h4 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+}
+
+.zones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 30px;
+}
+
+.first,
+.second,
+.third {
+    width: 100%;
+}
+
+.up {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    height: 170px;
+    margin-bottom: 30px;
+    background-color: #b97001;
+    h3 {
+        font-size: 20px;
+    }
+    i {
+        border-radius: 50%;
+        background-color: white;
+        color: #002f5b;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.depannage,
+.assistance,
+.maintenance {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 30px;
+}
