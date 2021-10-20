@@ -140,12 +140,24 @@ nav {
     }
 }
 
+.heroFoot {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 50px;
+    img {
+        width: 100%;
+        max-width: 980px;
+        object-fit: cover;
+    }
+}
+
 footer {
     position: sticky;
     color: white;
     background: linear-gradient(135deg, #002d58, #008bdb);
     padding: 40px 80px 40px 80px;
-    margin-top: 50px;
+    //margin-top: 50px;
     font-size: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -180,8 +192,8 @@ footer {
     .reseau {
         display: flex;
         i {
-            font-size: 25px;
-            margin-right: 15px;
+            font-size: 30px;
+            margin-right: 20px;
         }
         a:hover,
         i:hover {
@@ -278,6 +290,9 @@ footer {
         }
     }
     footer {
+        margin-top: 0;
+    }
+    .heroFoot {
         margin-top: 0;
     }
 }

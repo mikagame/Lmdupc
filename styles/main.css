@@ -143,13 +143,25 @@ nav p {
   box-shadow: 5px 5px 5px #4b4a4a;
 }
 
+.heroFoot {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 50px;
+}
+.heroFoot img {
+  width: 100%;
+  max-width: 980px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 footer {
   position: -webkit-sticky;
   position: sticky;
   color: white;
   background: linear-gradient(135deg, #002d58, #008bdb);
   padding: 40px 80px 40px 80px;
-  margin-top: 50px;
   font-size: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -184,8 +196,8 @@ footer .reseau {
   display: flex;
 }
 footer .reseau i {
-  font-size: 25px;
-  margin-right: 15px;
+  font-size: 30px;
+  margin-right: 20px;
 }
 footer .reseau a:hover,
 footer .reseau i:hover {
@@ -282,6 +294,10 @@ footer .reseau i:hover {
   footer {
     margin-top: 0;
   }
+
+  .heroFoot {
+    margin-top: 0;
+  }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .listImg {
@@ -329,4 +345,18 @@ footer .reseau i:hover {
 .contain {
   display: flex;
   margin-bottom: 30px;
+}
+.contain img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 999px) {
+  .catalogue {
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
