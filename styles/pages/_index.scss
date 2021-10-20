@@ -149,6 +149,7 @@ footer {
     font-size: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     a {
         text-decoration: none;
         color: white;
@@ -278,6 +279,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.6fr 0.3fr;
+        justify-items: center;
     }
     .address,
     .mailPhone {
