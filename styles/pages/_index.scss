@@ -144,10 +144,11 @@ footer {
     position: sticky;
     color: white;
     background: linear-gradient(135deg, #002d58, #008bdb);
-    padding: 40px;
+    padding: 40px 80px 40px 80px;
     margin-top: 50px;
-    display: flex;
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     a {
         text-decoration: none;
         color: white;
@@ -162,16 +163,10 @@ footer {
     }
     // border-top-left-radius: 15px;
     // border-top-right-radius: 15px;
-    .address {
-        width: 25%;
-        margin-left: 50px;
-    }
     .mailPhone {
         display: flex;
         flex-direction: column;
-        width: 25%;
     }
-    .reseau {}
 }
 
 @media only screen and (min-width: 600px) and (max-width:1200px) {
@@ -275,5 +270,17 @@ footer {
         display: flex;
         margin-top: 30px;
         min-width: 660px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.6fr 0.3fr;
+    }
+    .address,
+    .mailPhone {
+        margin-bottom: 20px;
     }
 }
