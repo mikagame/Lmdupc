@@ -1,0 +1,21 @@
+.catalogue {
+    background: linear-gradient(135deg, #002d58, #008bdb);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    margin: 0 15% 0 15%;
+    margin-top: 50px;
+    h2 {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid white;
+    }
+}
+
+.contain {
+    display: flex;
+    margin-bottom: 30px;
+}

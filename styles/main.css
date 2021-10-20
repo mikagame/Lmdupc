@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c4c3c3;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -141,9 +150,35 @@ footer {
   background: linear-gradient(135deg, #002d58, #008bdb);
   padding: 40px;
   margin-top: 50px;
+  display: flex;
+  font-size: 20px;
 }
-
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer p,
+footer i,
+footer a {
+  margin-bottom: 8px;
+}
+footer i {
+  color: white;
+}
+footer .address {
+  width: 25%;
+  margin-left: 50px;
+}
+footer .mailPhone {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  header h1 {
+    font-size: 40px;
+  }
+
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,7 +191,7 @@ footer {
 }
 @media only screen and (max-width: 599px) {
   header h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   nav {
@@ -242,11 +277,24 @@ footer {
     min-width: 660px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
+.catalogue {
+  background: linear-gradient(135deg, #002d58, #008bdb);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  margin: 0 15% 0 15%;
+  margin-top: 50px;
+}
+.catalogue h2 {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
 }
 
-body {
-  background-color: #c4c3c3;
+.contain {
+  display: flex;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
