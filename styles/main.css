@@ -501,9 +501,10 @@ footer .reseau i:hover {
     bottom: 20px;
     right: 6%;
     z-index: 10;
-    background-color: #b97001;
+    background-color: #6b6a6a;
     opacity: 0;
     border-radius: 20px;
+    border: 2px solid white;
   }
   #up a {
     color: white;
