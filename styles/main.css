@@ -499,7 +499,7 @@ footer .reseau i:hover {
   #up {
     position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 6%;
     z-index: 10;
     background-color: #b97001;
     opacity: 0;
