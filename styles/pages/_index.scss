@@ -189,9 +189,11 @@ footer {
     .mailPhone {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .reseau {
         display: flex;
+        align-items: center;
         i {
             font-size: 30px;
             margin-right: 20px;
@@ -313,20 +315,22 @@ footer {
     }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 850px) {
     footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.6fr 0.3fr;
         justify-items: center;
+        padding-left: 0;
+        padding-right: 0;
     }
     .address,
-    .mailPhone {
+    .mailPhone,
+    .reseau {
         margin-bottom: 20px;
+        width: 210px;
     }
     li {
-        li {
-            font-size: 15px;
-        }
+        font-size: 15px;
     }
 }
