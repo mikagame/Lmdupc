@@ -1,0 +1,20 @@
+@media only screen and (max-width: 999px) {
+    #up {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        z-index: 10;
+        background-color: #b97001;
+        opacity: 0;
+        border-radius: 20px;
+        a {
+            color: white;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+    }
+}
