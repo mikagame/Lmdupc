@@ -84,7 +84,7 @@ nav {
     font-weight: bold;
     color: white;
     border-radius: 15px;
-    margin: 0 15% 0 15%;
+    margin: 0 5% 0 5%;
     margin-top: 50px;
     box-shadow: 5px 5px 5px rgb(75, 74, 74);
     h2 {
@@ -204,6 +204,12 @@ footer {
             color: orange;
         }
     }
+}
+
+.mailPhone,
+.address {
+    border-left: 2px solid white;
+    padding-left: 20px;
 }
 
 @media only screen and (min-width: 600px) and (max-width:1200px) {
@@ -329,6 +335,11 @@ footer {
     .reseau {
         margin-bottom: 20px;
         width: 210px;
+    }
+    .address,
+    .mailPhone {
+        border-bottom: 2px solid white;
+        border-left: 2px solid transparent;
     }
     li {
         font-size: 15px;
