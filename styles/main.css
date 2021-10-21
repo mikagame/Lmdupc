@@ -486,6 +486,23 @@ footer .reseau i:hover {
     display: flex;
     flex-direction: column;
   }
+
+  .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    padding: 0;
+    padding-left: 10px;
+  }
+  .up i {
+    padding: 15px;
+    margin-right: 5%;
+    font-size: 18px;
+  }
+  .up h3 {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .prestation {
