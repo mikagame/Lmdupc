@@ -21,6 +21,10 @@ header h1 {
   text-shadow: 6px 6px 3px #4b4a4a;
 }
 
+#up {
+  display: none;
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -457,6 +461,7 @@ footer .reseau i:hover {
   height: 170px;
   margin-bottom: 30px;
   background-color: #b97001;
+  box-shadow: 8px 8px 5px #2c2b2b;
 }
 .up h3 {
   font-size: 20px;
@@ -471,7 +476,9 @@ footer .reseau i:hover {
 
 .depannage,
 .assistance,
-.maintenance {
+.maintenance,
+.vente,
+.formations {
   border: 1px solid white;
   border-radius: 10px;
   display: flex;
@@ -479,6 +486,7 @@ footer .reseau i:hover {
   justify-content: space-around;
   padding: 15px;
   margin-bottom: 30px;
+  box-shadow: 8px 8px 5px #2c2b2b;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -514,6 +522,7 @@ footer .reseau i:hover {
 }
 @media only screen and (max-width: 999px) {
   #up {
+    display: flex;
     position: fixed;
     bottom: 20px;
     right: 6%;
