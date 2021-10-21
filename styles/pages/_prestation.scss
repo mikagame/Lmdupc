@@ -15,12 +15,17 @@
         border-bottom: 2px solid white;
     }
     p,
-    li {
+    li,
+    ul {
         font-size: 18px;
         list-style: none;
         padding: 5px;
     }
-    h4 {
+    ul {
+        margin-bottom: 15px;
+    }
+    h4,
+    h5 {
         margin-bottom: 20px;
         font-size: 20px;
         text-decoration: underline;
@@ -68,7 +73,8 @@
 .assistance,
 .maintenance,
 .vente,
-.formations {
+.formations,
+.tarifs {
     border: 1px solid white;
     border-radius: 10px;
     display: flex;

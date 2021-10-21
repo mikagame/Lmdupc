@@ -426,12 +426,17 @@ footer .reseau i:hover {
   border-bottom: 2px solid white;
 }
 .prestation p,
-.prestation li {
+.prestation li,
+.prestation ul {
   font-size: 18px;
   list-style: none;
   padding: 5px;
 }
-.prestation h4 {
+.prestation ul {
+  margin-bottom: 15px;
+}
+.prestation h4,
+.prestation h5 {
   margin-bottom: 20px;
   font-size: 20px;
   text-decoration: underline;
@@ -478,7 +483,8 @@ footer .reseau i:hover {
 .assistance,
 .maintenance,
 .vente,
-.formations {
+.formations,
+.tarifs {
   border: 1px solid white;
   border-radius: 10px;
   display: flex;
