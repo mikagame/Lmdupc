@@ -353,6 +353,11 @@ footer .reseau i:hover {
   li {
     font-size: 15px;
   }
+
+  .reseau {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .catalogue {
   background: linear-gradient(135deg, #002d58, #008bdb);
