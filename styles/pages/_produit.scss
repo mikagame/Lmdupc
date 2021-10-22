@@ -1,0 +1,64 @@
+.produit {
+    background: linear-gradient(135deg, #002d58, #008bdb);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 0 5% 0 5%;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgb(75, 74, 74);
+    h2 {
+        color: white;
+    }
+}
+
+.imgProduit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    h3 {
+        text-align: center;
+        margin: 15px 0 15px 0;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .produit {
+        border-radius: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:799px) {
+    .imgProduit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .imgProduit {
+        display: flex;
+        flex-direction: column;
+    }
+}
